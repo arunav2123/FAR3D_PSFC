@@ -5,6 +5,7 @@ resonance effects) [4,5] and geodesic acoustic waves (parallel momentum
 response of the thermal plasma) [6]. FAR3d includes the moment equations of the
 energetic ion density and parallel velocity allowing treatment of linear wave-ion
 resonances.
+\\
 The model requires Landau closure relations that can be calibrated by more
 complete kinetic models [6]. The simulations are based on an equilibria
 calculated by the VMEC code [7], but future version will include other equilibria
