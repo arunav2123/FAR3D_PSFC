@@ -27,8 +27,24 @@ parallel to the magnetic field lines 'v||f'.
 
 6. The coefficients of the closure relation are selected to match a two-pole approximation of the plasma dispersion function.
 
-## VMEC Setup
-
+## VMEC Setup and compilation
+1. Get VMEC in FAR3D_PSFC folder
 ```
 git submodule update --init --recursive
 ```
+2. Go to VMEC fodler, and you could simply run from 
+```pip install . ``` \
+ Sometimes you may get error associated with f90wrap installation. In that case, install numpy before running the above command:
+``` pip install numpy ```
+``` pip install .```
+3. In this approach, we directly run the setup.py script present in the VMEC root folder. Ensure that the following modules are installed: cmake, scikit-build, ninja, numpy, and f90wrap. These packages could be installed by running the following commands:
+```pip install numpy```
+```pip install cmake scikit-build ninja f90wrap```
+Some times you may have to install numpy before trying to install f90wrap.
+
+4. Then, run
+```python setup.py build_ext ```
+```python setup.py install ```
+5. in succession. At this point, you should be able to import the vmec module in python. To test this, you can try the following command from the shell:
+
+```python -c "import vmec; print('success')" ```
