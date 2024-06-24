@@ -1,3 +1,4 @@
+# FAR3D code
 The aim of FAR3d code is to offer a fast tool to study the linear MHD and AE
 stability of nuclear fusion devices. 
 1. FAR3d code solves the linear reduced resistive
@@ -25,3 +26,9 @@ interaction [10], namely the energetic particle density 'nf' and velocity moment
 parallel to the magnetic field lines 'v||f'. 
 
 6. The coefficients of the closure relation are selected to match a two-pole approximation of the plasma dispersion function.
+
+## VMEC Setup
+
+```
+git submodule update --init --recursive
+```
