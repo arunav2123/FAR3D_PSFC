@@ -29,13 +29,12 @@ parallel to the magnetic field lines 'v||f'.
 
 ## BOOZERxForm Setup and compilation
 
-booz_xform is a package for computing Boozer coordinates in toroidal magnetohydrodynamic equilibria, including both stellarators and tokamaks. \ 
-booz_xform requires NetCDF, a C++ compiler, and python3. For many users, the code can be installed by executing
+```booz_xform``` is a package for computing Boozer coordinates in toroidal magnetohydrodynamic equilibria, including both stellarators and tokamaks.  ```booz_xform``` requires NetCDF, a C++ compiler, and python3. For many users, the code can be installed by executing
 ```
 pip install booz_xform
 ```
 ## VMEC Setup and compilation
-1. Get VMEC in FAR3D_PSFC folder
+1. Get ```VMEC``` in FAR3D_PSFC folder
 ```
 git submodule update --init --recursive
 ```
