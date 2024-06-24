@@ -27,7 +27,7 @@ parallel to the magnetic field lines 'v||f'.
 
 6. The coefficients of the closure relation are selected to match a two-pole approximation of the plasma dispersion function.
 
-## BOOZERxForm Setup and compilation
+## booz_xform Setup and compilation
 
 ```booz_xform``` is a package for computing Boozer coordinates in toroidal magnetohydrodynamic equilibria, including both stellarators and tokamaks.  ```booz_xform``` requires NetCDF, a C++ compiler, and python3. For many users, the code can be installed by executing
 ```
