@@ -27,7 +27,7 @@ parallel to the magnetic field lines 'v||f'.
 
 6. The coefficients of the closure relation are selected to match a two-pole approximation of the plasma dispersion function.
 
-## booz_xform Setup and compilation
+## Booz_xform setup and compilation
 
 ```booz_xform``` is a package for computing Boozer coordinates in toroidal magnetohydrodynamic equilibria, including both stellarators and tokamaks.  ```booz_xform``` requires NetCDF, a C++ compiler, and python3. For many users, the code can be installed by executing
 ```
@@ -47,19 +47,19 @@ pip install .
 pip install numpy 
 pip install .
 ```
-4. In this approach, we directly run the setup.py script present in the VMEC root folder. Ensure that the following modules are installed: cmake, scikit-build, ninja, numpy, and f90wrap. These packages could be installed by running the following commands:
+3. In this approach, we directly run the setup.py script present in the VMEC root folder. Ensure that the following modules are installed: cmake, scikit-build, ninja, numpy, and f90wrap. These packages could be installed by running the following commands:
 ```
 pip install numpy
 pip install cmake scikit-build ninja f90wrap
 ```
 Sometimes you may have to install numpy before trying to install f90wrap.
 
-6. Then, run
+4. Then, run
 ```
 python setup.py build_ext
 python setup.py install
 ```
-6. in succession. At this point, you should be able to import the VMEC module in python. To test this, you can try the following command from the shell:
+5. in succession. At this point, you should be able to import the VMEC module in python. To test this, you can try the following command from the shell:
 ```
 python -c "import vmec; print('success')"
 ```
