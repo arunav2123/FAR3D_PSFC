@@ -1,3 +1,6 @@
 [submodule "VMEC2000"]
 	path = VMEC2000
 	url = https://github.com/hiddenSymmetries/VMEC2000.git
+[submodule "BOOZ_xFORM"]
+	path = BOOZ_xFORM
+	url = https://github.com/arunav2123/BOOZ_xFORM.git
