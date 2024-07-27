@@ -1,0 +1,14 @@
+MKLROOT=/home/arunavk/miniconda3/envs/stel_env/
+MKLINCLUDE="-I${MKLROOT}/include"
+MKLLINK="-Wl,--start-group ${MKLROOT}/lib/libmkl_intel_lp64.so ${MKLROOT}/lib/libmkl_core.so ${MKLROOT}/lib/libmkl_sequential.so -Wl,--end-group -lpthread -lm -ldl"
+FC=/usr/bin/mpifort
+FFLAGS=" -O2 -ffixed-form"
+
+$FC -cpp -E -P -DPARALLEL -DSERIAL stellgap_ver5.f -o temp.f
+$FC $FFLAGS -c temp.f
+mv temp.o stellgap.o
+rm temp.f
+
+$FC $FFLAGS -c Fourier_lib_convolve.f
+$FC $FFLAGS -c fitpack.f
+$FC $FFLAGS -o xstgap -I. $MKLINCLUDE $MKLLINK stellgap.o Fourier_lib_convolve.o fitpack.o $MKLLINK
