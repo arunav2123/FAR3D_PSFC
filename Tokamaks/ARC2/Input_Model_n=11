@@ -97,11 +97,11 @@ ARC_V2B.txt
 !!!!!!!!!!! bet0_falp: 2nd species fast particle beta
 0.0
 !!!!!!!!!!! omcy: normalized fast particle cyclotron frequency
-38.94
+40.81
 !!!!!!!!!!! omcyb: normalized helicaly trapped fast particle frequency
-0.72
+0.757
 !!!!!!!!!!! rbound: normalized helicaly trapped bound length
-1.6
+1.57
 !!!!!!!!!!! omcyalp: normalized 2nd species fast particle cyclotron frequency
 0.0
 !!!!!!!!!!! itime: time normalization option
