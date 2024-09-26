@@ -4,7 +4,7 @@ Vacuum Toroidal magnetic field at R=4.25m [Tesla]
 Geometric Center Major radius [m]
     4.25
 Minor radius [m]
-    1.065
+    1.17
 Avg. Elongation
     1.43
 Avg. Top/Bottom Triangularity
