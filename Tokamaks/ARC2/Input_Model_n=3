@@ -89,7 +89,7 @@ ARC_V2B.txt
 !!!!!!!!!!! ietaeq: resistivity profile type (if 5 the electron temperature is used)
 1
 !!!!!!!!!!! spe1: species first EP population
-2
+4
 !!!!!!!!!!! bet0_f: fast particle beta
 0.00726
 !!!!!!!!!!! spe2: species second EP population
@@ -97,11 +97,11 @@ ARC_V2B.txt
 !!!!!!!!!!! bet0_falp: 2nd species fast particle beta
 0.0
 !!!!!!!!!!! omcy: normalized fast particle cyclotron frequency
-197.76
+40.81
 !!!!!!!!!!! omcyb: normalized helicaly trapped fast particle frequency
-0.165
+0.757
 !!!!!!!!!!! rbound: normalized helicaly trapped bound length
-0.002
+0.0157
 !!!!!!!!!!! omcyalp: normalized 2nd species fast particle cyclotron frequency
 0.0
 !!!!!!!!!!! itime: time normalization option
