@@ -10,7 +10,7 @@
 !----- Grid Parameters -----
   LASYM = F
   NFP = 1
-  MPOL = 22
+  MPOL = 12
   NTOR = 0
   NTHETA = 50
   NZETA = 0
