@@ -14,11 +14,11 @@
 !!!!!!!!!!! ngeneq: equilibrium input (only VMEC available now) 
 1
 !!!!!!!!!!! eq_name: equilibrium name 
-ARCv3Afar
+woutb_arclowIp
 !!!!!!!!!!! maxstp: simulation time steps 
 1000
 !!!!!!!!!!! dt0: simulation time step 
-2
+1
 !!!!!!!!!!! ldim: total number of poloidal modes (equilibrium + dynamic) 
 37
 !!!!!!!!!!! leqdim: equilibrium poloidal modes 
@@ -32,9 +32,9 @@ ARC_low_current.txt
 !!!!!!!!!!! ext_prof_len: number of lines in the external profile
 100
 !!!!!!!!!!! iflr_on: activate thermal ion FLR damping effects if 1
-1
+0
 !!!!!!!!!!! epflr_on: activate fast particle FLR damping effects if 1
-1
+0
 !!!!!!!!!!! ieldamp_on: activate electron-ion Landau damping effect if 1
 0
 !!!!!!!!!!! twofl_on: activate two fluid effects if 1
@@ -42,7 +42,7 @@ ARC_low_current.txt
 !!!!!!!!!!! alpha_on: activate a 2nd fast particle species if 1
 1
 !!!!!!!!!!! Trapped_on: activate correction for trapped 1st fast particle species if 1
-1
+0
 !!!!!!!!!!! matrix_out: activate eigensolver output
 .false.	
 !!!!!!!!!!! m0dy: equilibrium modes as dynamic
@@ -58,14 +58,14 @@ ARC_low_current.txt
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ==================================/ MODEL PARAMETERS \===================================
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!! MODES INCLUDED IN THE MODEL !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!! mm: poloidal dynamic and equilibrium modes                                                                                                   
+!!!!!!!!!!! mm: poloidal dynamic and equilibrium modes                                                                                           
 13,12,11,10,9,8,7
 -13,-12,-11,-10,-9,-8,-7
 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22
 !!!!!!!!!!! nn: toroidal dynamic and equilibrium modes
 7*10,7*-10,23*0
 !!!!!!!!!!! mmeq: poloidal equilibrium modes
-0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22                                                                                                       
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22                                                                                       
 !!!!!!!!!!! nneq: toroidal equilibrium modes
 23*0
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! PERTURBATION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -172,7 +172,7 @@ ARC_low_current.txt
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ================================/ SELF PROFILES PARAMETERS \============================
 !!!!!!!!!!! EP_dens_on: user defined fast particle density profile (if 1)
-1
+0
 !!!!!!!!!!! Adens: fast particle density profile flatness
 10.5
 !!!!!!!!!!! Bdens: location of the fast particle density profile gradient
@@ -186,7 +186,7 @@ ARC_low_current.txt
 !!!!!!!!!!! EP_vel_on: user defined fast particle vth/vA0 profile (if 1)
 1
 !!!!!!!!!!! Alpha_vel_on: user defined 2nd species fast particle vth/vA0 profile (if 1)
-1
+0
 !!!!!!!!!!! q_prof_on: the safety factor profile of the external profile is used (is 1)
 0
 !!!!!!!!!!! Eq_vel_on: the equilibrium toroidal velocity profile of the external profile is used (if 1)
@@ -234,7 +234,7 @@ ARC_low_current.txt
 3.184577674238863E+03, -3.789454655055126E+03,  2.786069409436922E+03,
 -1.160818784526462E+03,  2.100700986027593E+02
 !!!!!!!!!!! cvfpalp: user defined 2nd species energetic particles parallel velocity profile
-0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.16, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 !!!!!!!!!!! eqvt: user defined equilibrium thermal toroidal velocity profile
 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 !!!!!!!!!!! eqvp: user defined equilibrium thermal poloidal velocity profile

@@ -6,9 +6,9 @@ Geometric Center Major radius [m]
 Minor radius [m]
     1.18
 Avg. Elongation
-    1.3561277598290598
+    1.356
 Avg. Top/Bottom Triangularity
-    0.19216973999867865
+    0.1921
 Main Contaminant Species
     9B
 Main Ion Species mass/proton mass
